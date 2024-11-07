@@ -1,0 +1,35 @@
+.principal {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.Bloque1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.Bloque2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+}
+
+.Bloque3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    top: 40px;
+    left: 40px;
+    z-index: 2;
+}
