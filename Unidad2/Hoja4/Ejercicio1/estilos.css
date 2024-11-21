@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-horizontal {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(136, 75, 0);
+    padding: 10px 0;
+    list-style: none;
+}
+
+.menu-horizontal li {
+    font-family: Arial, sans-serif;
+}
+
+.menu-horizontal a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}

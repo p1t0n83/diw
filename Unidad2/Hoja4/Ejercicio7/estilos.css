@@ -1,0 +1,30 @@
+body {
+    padding: 20px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedor {
+    display: flex;
+    gap: 10px;
+}
+
+.izquierda {
+    flex: 2;
+    background-color: rgb(22, 126, 126);
+    color: white;
+    padding: 20px;
+}
+
+.derecha {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.filas {
+    flex: 1;
+    background-color: #f0f0f0;
+    padding: 16px;
+}

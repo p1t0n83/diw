@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+
+    background-color: #f0f0f0;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+
+    list-style: none;
+
+    padding: 0px;
+    margin-top: 20px;
+}
+
+ul li {
+    background-color: rgb(37, 150, 190);
+
+    flex: 1 1 0;
+
+    height: 200px;
+    width: 30%;
+    padding: 20px;
+
+    text-align: left;
+}
+
+ul li p {
+    font-size: 16px;
+    color: white;
+}
