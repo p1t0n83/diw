@@ -1,0 +1,43 @@
+header {
+    grid-area: cabecera;
+    border: 1px solid saddlebrown;
+    background-color: chocolate;
+}
+
+#menu {
+    grid-area: menu;
+    border: 1px solid saddlebrown;
+    background-color: chocolate;
+}
+
+#derecha {
+    grid-area: derecha;
+    border: 1px solid saddlebrown;
+    background-color: chocolate;
+}
+
+footer {
+    grid-area: pie;
+    border: 1px solid saddlebrown;
+    background-color: chocolate;
+}
+
+main {
+    grid-area: principal;
+    border: 1px solid saddlebrown;
+    background-color: chocolate;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-areas:
+        "cabecera cabecera cabecera cabecera cabecera cabecera"
+        "menu principal principal principal principal derecha"
+        "menu pie pie pie pie pie";
+    gap: 10px;
+    background-color: chocolate;
+    padding: 10px;
+    border: 1 solid black;
+    min-height: 100;
+    grid-template-rows: 40px 1fr 40px;
+}
