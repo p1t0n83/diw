@@ -1,0 +1,86 @@
+.caja {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+
+img {
+    width: 90px;
+    display: block;
+    margin: 0 auto;
+}
+
+.caja-1 {
+    background-color: black;
+    color: white;
+    grid-area: 1/1/2/4;
+    text-align: left;
+}
+
+.caja-1 span {
+    color: #a1e1e1;
+
+}
+
+.caja-2 {
+    text-align: center;
+    align-content: center;
+    background-image: url(imagenes/icon-user.png);
+    background-color: blue;
+    grid-area: 1/4/1/4;
+}
+
+
+.caja-3 {
+    background-color: black;
+}
+
+.caja-5 {
+    text-align: center;
+    align-content: center;
+    background-image: url(imagenes/icon-clipboard.png);
+    background-color: cornflowerblue;
+    color: white;
+}
+
+
+.caja-6 {
+    text-align: center;
+    align-content: center;
+    background-image: url(imagenes/icon-check.png);
+    background-color: aquamarine;
+}
+
+
+.caja-8 {
+    text-align: center;
+    align-content: center;
+    background-image: url(imagenes/icon-mail.png);
+    background-color: yellow;
+}
+
+
+.caja-9 {
+    text-align: center;
+    align-content: center;
+    background-image: url(imagenes/empleo.jpg);
+    grid-area: 3/1/3/3;
+}
+
+.caja-10 {
+    text-align: center;
+    align-content: center;
+    background-image: url(imagenes/icon-message.png);
+    background-color: blue;
+}
+
+
+.caja-11 {
+    text-align: center;
+    align-content: center;
+    background-image: url(imagenes/redes.jpg);
+    grid-area: 3/4/3/6;
+}
