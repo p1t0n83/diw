@@ -1,3 +1,10 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
 header {
     background-image: url("img/img1.jpg");
     color: white;
@@ -6,14 +13,64 @@ header {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-li {
-    display: inline;
-    padding: 10px;
+.boton {
+    background: #004b8d;
+    color: white;
+    border: solid 1px white;
+    margin: 25px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    width: 300px;
+    font-size: 12px;
 }
 
-#lista {
-    font-family: Arial, Helvetica, sans-serif;
-    color: burlywood;
-    background-color: blue;
+nav {
+    background-color: #003b70;
+    margin-top: 10px;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: left;
+    background-color: #003c70;
+    padding: 15px;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    color: orange;
+}
+
+.imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+}
+
+.imagen {
+    width: 20%;
+    margin: 15px;
+    text-align: center;
+}
+
+.imagen img {
+    width: 75%;
+    height: auto;
+}
+
+footer {
+    background: #003b70;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }

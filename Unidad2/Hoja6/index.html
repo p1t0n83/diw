@@ -10,39 +10,79 @@
 
 <body>
     <header>
-        <h1>Bienvenidos a INMO</h1>
-        <button>Get Started</button>
-        <div id="lista">
-            <ul>
-                <li>Home</li>
-                <li>Pisos</li>
-                <li>Adosados</li>
-                <li>Chalets</li>
-            </ul>
+        <div class="contenidoHeader">
+            <h1>Bienvenidos a INMO</h1>
+            <button class="boton">Get Started</button>
         </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pisos</a></li>
+                <li><a href="#">Adosados</a></li>
+                <li><a href="#">Chalets</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <section>
-            <div>
-                <h2>Title 1</h2>
-                <img src="img/img2.jpg" width="100px" height="100px">
+        <section class="imagenes">
+            <div class="imagen">
+                <h3>Title 1</h3>
+                <img src="./img/img2.jpg" alt="Title1">
             </div>
-            <div>
-                <h2>Title 2</h2>
-                <img src="img/img3.jpg" width="100px" height="100px">
+            <div class="imagen">
+                <h3>Title 2</h3>
+                <img src="./img/img3.jpg" alt="Title2">
             </div>
-            <div>
-                <h2>Title 3</h2>
-                <img src="img/img4.jpg" width="100px" height="100px">
+            <div class="imagen">
+                <h3>Title 3</h3>
+                <img src="./img/img4.jpg" alt="Title3">
             </div>
-            <div>
-                <h2>Title 4</h2>
-                <img src="img/img5.jpg" width="100px" height="100px">
+            <div class="imagen">
+                <h3>Title 4</h3>
+                <img src="./img/img5.jpg" alt="Title4">
             </div>
         </section>
+
     </main>
     <footer>
+        <section class="contacto">
+            <div class="formulario">
+                <h2>Contactamos contigo</h2>
+                <hr>
+                <form>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" placeholder="Nombre">
+                    <label for="phone">Teléfono:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Teléfono">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Email">
+                    <br><br>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
 
+            <div class="redes">
+                <h2>Síguenos</h2>
+                <hr>
+                <div class="iconos">
+                    <a href="#"><img src="./img/img6.webp" alt="Facebook"></a>
+                    <a href="#"><img src="./img/img7.webp" alt="Instagram"></a>
+                    <a href="#"><img src="./img/img8.webp" alt="Twitter"></a>
+                </div>
+            </div>
+
+            <div class="siguenos">
+                <h2>Síguenos</h2>
+                <hr>
+                <ul>
+                    <li><a href="#">Política de cookies</a></li>
+                    <li><a href="#">Política de privacidad</a></li>
+                    <li><a href="#">Política de calidad</a></li>
+                    <li><a href="#">Política de seguridad</a></li>
+                </ul>
+            </div>
+
+        </section>
     </footer>
 </body>
 
