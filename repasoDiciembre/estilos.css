@@ -1,0 +1,130 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+
+}
+body{
+    width:70%;
+    margin-left:15%;
+}
+a,h5{
+    color:#c6991c;
+}
+hr{
+    border:1px dashed black;
+}
+/*encabezado*/
+
+.encabezado {
+    height: 100px;
+    background-color:#c6991c;
+    border-radius: 15px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 15px;
+    padding-left: 15px;
+    padding-right:15px;
+}
+
+.encabezado a{
+    color:black;
+    text-decoration: none;   
+}
+
+#menu{
+    display:flex;
+    flex-direction: row;
+    align-self: flex-end;
+}
+
+
+#menu ul li{
+   background-color:antiquewhite;
+   border-radius: 5px;
+   border:1px solid #c6991c;
+   padding:5px 5px 0 5px;
+   display:inline;
+}
+
+#menu ul li:hover{
+    background-color: #c6991c;
+}
+
+
+/*cuerpo*/
+
+main{
+    display:flex;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom: 5%;
+}
+
+main img{
+    float: left;
+    height: 100px;
+    width:100px;
+}
+
+main h3{
+    align-content: center;
+    text-align: left;
+    background-color:#c6991c;
+    border-radius: 5px;
+    width:100%;
+    height:40px;
+    color:white;
+    padding-left:15px;
+}
+
+#contenedor1{
+   width:25%;
+   margin-right:5%;
+}
+
+#contenedor1 ul{
+    list-style: none;
+}
+#contenedor1 span{
+  font-weight: 600;
+}
+
+#unidadesTrabajo ul li{
+  margin-bottom: 10px;
+}
+#unidadesTrabajo ul a{ 
+   text-decoration:none;
+}
+
+#contenedor2{
+    width:50%;
+    margin-right:5%;
+}
+
+#contenedor3{
+    width:15%;
+}
+
+#contenedor3 ul{
+    color:#c6991c;
+}
+
+#hojasEstilos span {
+    font-style: italic;
+}
+
+#hojasEstilos ol {
+    padding-left:20px;
+}
+
+/*pie de pagina*/
+
+footer{
+    border:3px solid #c6991c;
+    border-radius:15px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
