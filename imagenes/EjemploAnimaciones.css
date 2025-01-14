@@ -1,0 +1,15 @@
+.animacion_parpadeo{
+    animation-name:texto_parpadeo;
+    animation-duration:1ms;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+body{
+    background-color: black;
+}
+@keyframes texto_parpadeo{
+    0%{color:red}
+    50%{color:blue}
+    75%{color:brown}
+    100%{color:yellow}
+}
