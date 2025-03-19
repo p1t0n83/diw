@@ -1,6 +1,7 @@
 body{
     color:white;
     background-color:black;
+    text-align:center;
 }/*
 .mar{
     grid-area:mar;
@@ -64,11 +65,12 @@ body{
 }
 main{
     display:grid;
+    width:100%;
     /*grid-template-areas:
     "mar mar exi exi"
     "cli nos con tes"
     "blo ser red";
     */
-    grid-template-columns:200px 200px 200px 200px;
+    grid-template-columns:25% 25% 25% 25%;
     grid-template-rows:300px 250px 50px;
    }
