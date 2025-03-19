@@ -1,0 +1,74 @@
+body{
+    color:white;
+    background-color:black;
+}/*
+.mar{
+    grid-area:mar;
+}
+.exi{
+    grid-area:exi;
+}
+.nos{
+    grid-area:nos;
+}
+.con{
+    grid-area:con;
+}
+.tes{
+    grid-area:tes;
+}
+.blo{
+    grid-area:blo;
+}
+.ser{
+    grid-area:ser;
+}
+.red{
+    grid-area:red;
+}
+.cli{
+    grid-area:cli;
+}*/
+.mar{
+    background-color:red;
+    grid-column-start:1;
+    grid-column-end:3;
+}
+.exi{
+    background-color:blue;
+    grid-column-start:3;
+    grid-column-end:5;
+}
+.nos{
+    background-color:green;
+}
+.con{
+    background-color:purple;
+}
+.tes{
+    background-color:yellow;
+}
+.blo{
+    background-color:brown;
+}
+.ser{
+    background-color:aqua;
+    grid-column-start:2;
+    grid-column-end:4;
+}
+.red{
+    background-color:pink;
+}
+.cli{
+    background-color:orange;
+}
+main{
+    display:grid;
+    /*grid-template-areas:
+    "mar mar exi exi"
+    "cli nos con tes"
+    "blo ser red";
+    */
+    grid-template-columns:200px 200px 200px 200px;
+    grid-template-rows:300px 250px 50px;
+   }

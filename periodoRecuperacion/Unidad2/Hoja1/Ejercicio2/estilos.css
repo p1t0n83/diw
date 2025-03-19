@@ -1,0 +1,21 @@
+main{
+    display:grid;
+    grid-template-columns:20% 20% 20% 20% 20%;
+}
+header, footer{
+    color:white;
+    background-color:black;
+    text-align:center;
+}
+div{
+    margin:10px;
+}
+
+.lateral{
+    background-color:red;
+    height:800px;
+}
+
+.noticia{
+    background-color:yellow;
+}
