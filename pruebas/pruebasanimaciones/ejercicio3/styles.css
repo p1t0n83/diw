@@ -1,0 +1,53 @@
+.texto {
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    overflow: hidden; /* Oculta el texto que no ha sido "escrito" aún */
+    border-right: 2px solid red; /* Añade un cursor de escritura */
+    animation: letraAletra 5s steps(50) 1s forwards; /* Controla la duración y los pasos de la animación */
+}
+
+.sub{
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+    white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+    overflow: hidden; /* Oculta el texto que no ha sido "escrito" aún */
+    border-right: 2px solid red; /* Añade un cursor de escritura */
+    animation: des 1s forwards; /* Controla la duración y los pasos de la animación */
+}
+
+.boton{
+    animation: escalado 5s forwards;
+}
+@keyframes letraAletra {
+    from {
+        width: 0;
+    }
+    to {
+        width: 30%;
+    }
+}
+
+@keyframes des {
+    0%{
+        opacity:0
+    }
+    100%{
+        opacity:1
+    }
+}
+
+@keyframes escalado{
+    0%{
+        transform:scale(0);
+    }
+    100%{
+        transform:scale(1);
+    }
+}

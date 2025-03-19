@@ -1,0 +1,65 @@
+/*f*/
+body{
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #f0f0f0;
+}
+/*g*/
+header h1{
+   color: red;
+}
+
+/*h*/
+article a{
+    background-color: pink;
+    text-decoration: none;
+}
+article a:hover{
+    color:red;
+}
+
+/*i*/
+li a{
+    background-color: aqua;
+    color:blueviolet;
+}
+/*j*/
+aside > ul > li{
+    font-style: italic;
+}
+/*k*/
+nav > ul > li:hover{
+    background: yellow;
+}
+/*l*/
+form > fieldset{
+    border: 10px solid pink;
+}
+/*m*/
+article:first-child{
+    background-color: aqua;
+}
+/*n*/
+input + label {
+    color: purple; /* Estiliza el <label> que es hermano adyacente de <input> */
+}
+/*o*/
+label input[type="radio"]{
+    width: 50px; /* Ajusta el tamaño del radio button */
+    height: 20px;
+}s
+/*p*/
+footer a:hover{
+ color:aqua;
+}
+/*q*/
+footer a[href^="mailto"] {
+    height: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    color: red;
+}
+/*r*/
+aside li b{
+   font-style: normal;
+   color:blue;
+}

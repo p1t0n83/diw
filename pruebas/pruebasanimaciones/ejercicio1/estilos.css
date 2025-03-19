@@ -1,0 +1,48 @@
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.circulo1, .circulo {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    transform-origin: bottom; /* Establece el punto de origen de la transformación en la parte inferior */
+}
+
+.circulo1 {
+    animation: circulos1 5s infinite linear;
+    animation-delay:5s;
+}
+
+.circulo {
+    animation: circulos2 5s infinite linear;
+}
+
+@keyframes circulos1 {
+    0%, 50%, 100% {
+        transform: scaleY(1);
+    }
+    25% {
+        transform: scaleY(2);
+    }
+    75% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes circulos2 {
+    0%, 50%, 100% {
+        transform: scaleY(1);
+    }
+    25% {
+        transform: scaleY(1);
+    }
+    75% {
+        transform: scaleY(2);
+    }
+}

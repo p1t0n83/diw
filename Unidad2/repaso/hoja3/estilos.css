@@ -1,0 +1,90 @@
+body{
+  background-color: #146356;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+header{
+    margin: 20px 50px 20px 50px;
+    color: #146356;
+    background-color: #f3c892;
+    display: flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente al centro */
+    width: 100%; /* Ajusta el ancho al 100% del contenedor */
+    border: 3px solid white;
+}
+header div{
+    display: flex;
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    flex: 1;
+}
+.header h1, .header p {
+    margin: 0; /* Elimina el margen predeterminado */
+}
+header img{
+   width:auto;
+   height:130px;
+}
+
+main{
+    display:flex;
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente al centro */
+}
+
+main section{
+    background-color: #f3c892;
+}
+
+aside{
+    width:20%;
+}
+
+section{
+    width:60%;
+}
+
+#contenedor1 {
+    display:flex;
+    flex-direction: row; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    flex: 1;
+}
+
+#nav{
+    background-color: #a3da8d ;
+    margin: 20px 50px 0px 50px;
+    display:flex;
+    flex-direction: row;
+}
+#nav div{
+    text-align: center;;
+    margin:auto;
+    width: 100%;
+    border:1px solid black;
+}
+#sub1{
+    display:flex;
+    flex-direction:column;
+}
+#contenedor1 p{
+    text-align:left;
+}
+section img{
+    width:100px;
+    height:100px;
+}
+
+#contenedor2 {
+    display:flex;
+    flex-direction: row; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    flex: 1;
+}
+#contenedor2 img{
+    width:auto;
+    height:auto;  
+}
+

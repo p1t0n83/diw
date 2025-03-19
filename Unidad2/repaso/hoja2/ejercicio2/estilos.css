@@ -1,0 +1,54 @@
+/*a*/
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    size:36px;
+    color:#333333;
+}
+/*b*/
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    size:24px;
+    color:#1a5eab;
+}
+/*c*/
+p{
+    font-family: 'Times New Roman', Times, serif;
+    size:14px;
+    color:#444444;
+}
+/*d*/
+.categories{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*e*/
+#main-header{
+    background-color: #f8f8f8;
+}
+/*f*/
+article header{
+    margin-bottom: 15px ;
+    border-bottom:1px solid #dddddd;
+}
+/*g*/
+section > article{
+    padding:20px;
+}
+/*h*/
+.categories a:hover{
+      color:#f00000;
+}
+/*i*/
+table tr:nth-child(odd){
+    background: #f2f2f2;
+}
+/*j*/
+p::first-letter{
+    size:22px;
+    color:#1a5eab;
+}
+/*k*/
+article h2::before{
+   content:"- ";
+}
+/*l*/

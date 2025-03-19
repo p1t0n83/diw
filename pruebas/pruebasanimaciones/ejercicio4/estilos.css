@@ -1,0 +1,30 @@
+.card1 {
+    background-color: rgb(228, 76, 76);
+    animation: aparecer 2s forwards;
+    opacity: 0;
+}
+
+.card2 {
+    background-color: rgb(76, 228, 76);
+    animation: aparecer 2s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.card3 {
+    background-color: rgb(76, 76, 228);
+    animation: aparecer 2s forwards;
+    animation-delay: 2s;
+    opacity: 0;
+}
+
+@keyframes aparecer {
+    0% {
+        transform: translateY(100%);
+      
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}

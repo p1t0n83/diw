@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <label>DNI:<input type="password" maxlength="9" minlength="9" required></label>
+    <label>Nombre:<input type="text" maxlength="9" minlength="9" required value="iker" readonly></label>
+    <label>Apellidos:<input type="text" maxlength="9" minlength="9" required value="Garcia Iturri" readonly></label>
+    </form>
+    <select>
+        <option value="DAM">DAM</option>
+        <option value="DAW">DAW</option>
+        <option value="ASIR">ASIR</option>
+        <option value="SMR">SMR</option>
+    </select>
+        <fieldset>
+            <legend>Módulos disponibles</legend>
+            <label><input type="checkbox" name="modulos[]" value="Programación"> Programación</label>
+            <label><input type="checkbox" name="modulos[]" value="Bases de datos"> Bases de datos</label>
+            <label><input type="checkbox" name="modulos[]" value="Sistemas informáticos"> Sistemas informáticos</label>
+            <label><input type="checkbox" name="modulos[]" value="Lenguaje de marcas"> Lenguaje de marcas</label>
+        </fieldset>
+        <fieldset>
+            <legend>Número de matrícula</legend>
+            <label for="matricula">Seleccione un número:</label>
+            <select name="matricula" id="matricula" required>
+                <option value="" disabled selected>Seleccione...</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+        </fieldset>
+        <button type="submit">Enviar matrícula</button>
+    </form>
+    </body>
+</body>
+</html>

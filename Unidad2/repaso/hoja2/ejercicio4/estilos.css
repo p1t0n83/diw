@@ -1,0 +1,22 @@
+div{
+    margin:20px 20px 20px 20px;
+    padding:15px;
+    box-sizing:border-box;
+}
+
+#tarjeta1{
+    border:3px solid red;
+    border-radius: 10px;
+}
+
+#tarjeta2{
+    padding-left:30px;
+    padding-right:30px;
+    border: 2px solid blue;
+}
+
+#tarjeta3{
+    display: inline-block;
+    border:5px double green;
+    background: gray;
+}

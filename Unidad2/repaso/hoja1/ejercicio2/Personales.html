@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+      <h1>Datos personales</h1> 
+      <label>Nombre:<input type="text" maxlength=20 required></label>
+      <label>Apellidos:<input type="text" maxlength=40 required></label> 
+      <br>
+      <label>DNI:<input type="text" maxlength="10" minlength="10" required></label>
+      <label>Nacimiento:<input type="date"></label>
+      <br>
+      <label>Hombre:<input type="radio"  name="sexo"value="Hombre">Mujer:<input type="radio"  name="sexo" value="Mujer">Otros:<input type="radio" name="sexo" value="otros"></label>
+      <br>
+      <form border="2px">
+       <fieldset>
+        <label>Direccion:<input type="text" maxlength=120 required></label>
+        <label>Telefono:<input type="text" maxlength=10 required><span>Ejemplo:123-456789</span></label>
+        <label>Email:<input type="mail"></label>
+        <legend>Datos de contacto</legend>
+       </fieldset>
+       <button type="submit">Enviar datos personales</button>
+      </form>
+     
+    </form>
+</body>
+</html>

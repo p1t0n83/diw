@@ -1,0 +1,41 @@
+* {
+    /* esto hara que no haya espacios en el css */
+    margin: 0;
+    padding: 0;
+    /* hace que todo lo que haya dentro se mantenga dentro del margen de altura y largo*/
+    box-sizing: border-box;
+  }
+
+  body{
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    color:white;
+    margin-bottom: 20px;
+}
+
+main{
+    margin: 0 30px 0 30px;
+}
+
+main > h2{
+    background-color: aqua;
+    color:white;
+    border-bottom: 5px solid red;
+    padding: 20px;
+}
+
+#contenedor{
+    background-color: white;
+    padding:30px;
+}
+
+button{
+    color:white;
+    background-color:red;
+    padding:20px;
+}
+
