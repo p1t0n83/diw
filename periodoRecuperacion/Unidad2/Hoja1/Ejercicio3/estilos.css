@@ -56,17 +56,3 @@ main {
     grid-template-rows: 1fr 1fr auto;
     height: 90vh;
 }
-
-/*
-body {
-    background-color: black;
-    color: white;
-}
-
-.contenedor {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr) auto;
-    gap: 10px;
-}
-    */
