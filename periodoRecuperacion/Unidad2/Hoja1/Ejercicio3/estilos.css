@@ -1,76 +1,72 @@
-body{
-    color:white;
-    background-color:black;
-    text-align:center;
-}/*
-.mar{
-    grid-area:mar;
+body {
+    color: white;
+    background-color: black;
+    text-align: center;
 }
-.exi{
-    grid-area:exi;
+
+div {
+    margin: 5px;
 }
-.nos{
-    grid-area:nos;
+
+.mar {
+    background-color: rgb(37, 107, 182);
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
-.con{
-    grid-area:con;
+
+.exi {
+    background-color: rgb(255, 179, 0);
+    grid-column-start: 3;
+    grid-column-end: 5;
 }
-.tes{
-    grid-area:tes;
+
+.nos {
+    background-color: rgb(24, 16, 238);
 }
-.blo{
-    grid-area:blo;
+
+
+
+.tes,
+.con {
+    background-color: rgb(255, 179, 0);
 }
-.ser{
-    grid-area:ser;
+
+.blo {
+    background-color: rgb(67, 95, 206);
 }
-.red{
-    grid-area:red;
+
+.ser {
+    background-color: hsl(207, 87%, 73%);
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
-.cli{
-    grid-area:cli;
-}*/
-.mar{
-    background-color:red;
-    grid-column-start:1;
-    grid-column-end:3;
+
+.red {
+    background-color: black;
 }
-.exi{
-    background-color:blue;
-    grid-column-start:3;
-    grid-column-end:5;
+
+.cli {
+    background-color: rgb(37, 107, 182);
 }
-.nos{
-    background-color:green;
+
+main {
+    display: grid;
+    width: 95vw;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 1fr 1fr auto;
+    height: 90vh;
 }
-.con{
-    background-color:purple;
+
+/*
+body {
+    background-color: black;
+    color: white;
 }
-.tes{
-    background-color:yellow;
+
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr) auto;
+    gap: 10px;
 }
-.blo{
-    background-color:brown;
-}
-.ser{
-    background-color:aqua;
-    grid-column-start:2;
-    grid-column-end:4;
-}
-.red{
-    background-color:pink;
-}
-.cli{
-    background-color:orange;
-}
-main{
-    display:grid;
-    width:100%;
-    /*grid-template-areas:
-    "mar mar exi exi"
-    "cli nos con tes"
-    "blo ser red";
     */
-    grid-template-columns:25% 25% 25% 25%;
-    grid-template-rows:300px 250px 50px;
-   }

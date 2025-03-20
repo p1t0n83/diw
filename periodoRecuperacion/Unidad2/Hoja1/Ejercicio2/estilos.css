@@ -1,21 +1,120 @@
-main{
-    display:grid;
-    grid-template-columns:20% 20% 20% 20% 20%;
-}
-header, footer{
-    color:white;
-    background-color:black;
-    text-align:center;
-}
-div{
-    margin:10px;
+header,
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
 }
 
-.lateral{
-    background-color:red;
-    height:800px;
+header {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
 
-.noticia{
-    background-color:yellow;
+.menu {
+    background-color: azure;
+    padding: 20px;
 }
+
+main {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 10px;
+}
+
+article {
+    background-color: #dddddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.derecho {
+    background-color: azure;
+    padding: 20px;
+}
+
+footer {
+    grid-column-start: 1;
+    grid-column-end: 6;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    gap: 10px;
+    height: 100vh;
+
+}
+
+
+/*
+header,
+footer {
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+header {
+    grid-area: cabecera;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    grid-area: menu;
+    background-color: azure;
+    padding: 20px;
+}
+
+main {
+    grid-area: contenido;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+article {
+    background-color: #dddddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.derecho {
+    grid-area: derecho;
+    background-color: azure;
+    padding: 20px;
+}
+
+footer {
+    grid-area: pie;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto 1fr 1fr auto;
+    grid-template-areas:
+        "cabecera cabecera cabecera cabecera cabecera"
+        "menu contenido contenido contenido derecho"
+        "menu contenido contenido contenido derecho"
+        "pie pie pie pie pie";
+    gap: 10px;
+    height: 100vh;
+
+}
+    */
