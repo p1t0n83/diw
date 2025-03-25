@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    align-items: center;
+    height: 100px;
+    color: white;
+    background-color: #002B5B;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+#logo {
+    flex: 0 0 auto;
+}
+
+
+#menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+#menu ul>li {
+    margin: 10px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+#inicio {
+    flex: 0 0 auto;
+}
+
+button {
+    color: white;
+    background-color: #00A6FB;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/*Ejercicio 2*/
+
+footer {
+    height: 250px;
+    background-color: #222;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#parteSuperior {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+#parteInferior {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+#parteInferior ul {
+    list-style: none;
+    text-align: left;
+
+}
+
+#parteInferior h3 {
+    padding-bottom: 10px;
+}
+
+#parteInferior ul li {
+    padding: 5px 0 10px;
+}

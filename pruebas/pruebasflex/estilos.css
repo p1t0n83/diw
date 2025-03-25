@@ -1,0 +1,28 @@
+.contenedor {
+    display: flex;
+    width: 600px;
+    border: 1px solid black;
+    align-content: flex-start;
+}
+
+.contenedor>div {
+    height: 145px;
+    margin: 5px;
+    background-color: aquamarine;
+}
+
+#caja1 {
+    width: 100px
+}
+
+#caja2 {
+    width: 100px
+}
+
+#caja3 {
+    width: 100px
+}
+
+#caja4 {
+    width: 100px;
+}
