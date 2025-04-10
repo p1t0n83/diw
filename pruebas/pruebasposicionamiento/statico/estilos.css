@@ -1,0 +1,18 @@
+.caja1{
+    background-color: lightblue;
+    padding:20px;
+    position:Static;
+}
+
+.caja2{
+    background-color:lightcoral;
+    padding:20px;
+    position:relative;
+    top: 20px;
+    left: 20px;
+}
+
+.caja3{
+    background-color: limegreen;
+    padding:20px;
+}
