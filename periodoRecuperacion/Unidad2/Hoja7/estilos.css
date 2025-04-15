@@ -1,0 +1,21 @@
+body{
+    display:grid;
+    grid-area: 
+    " Mi Panel Panel Panel Panel"
+    " Mi Pie Pie Pie Pie Pie";
+    margin:0;
+    padding:0;
+}
+
+aside{
+    grid-area: Mi;
+}
+
+main{
+    grid:Panel;
+}
+
+footer{
+    grid:Footer;
+}
+
