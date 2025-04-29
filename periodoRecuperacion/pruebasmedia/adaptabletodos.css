@@ -1,0 +1,14 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-color:chocolate;
+}
+
+@media (max-width:480px){
+    body{
+        margin:0px;
+        padding:0px;
+        background-color:lightseagreen;
+    }
+    
+}
