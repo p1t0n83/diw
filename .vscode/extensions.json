@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "aeschli.vscode-css-formatter",
+        "bradlc.vscode-tailwindcss",
+        "csstools.postcss"
+    ]
+}
