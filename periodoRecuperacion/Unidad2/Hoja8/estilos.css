@@ -1,0 +1,62 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+header{
+    display:grid;
+    grid-template-rows:1fr 1fr;
+    background-color: green;
+    text-align: center;
+    color:white;
+}
+
+
+.menu{
+    background-color: black;
+}
+
+
+.menu ul{
+    list-style:none; 
+    display:flex;
+}
+
+.menu ul li{
+    margin:10px;
+}
+
+ul.submenu{
+    display:none;
+    position:absolute;
+    left:3%;
+    background-color: black;
+}
+.submenu li{
+    padding:0;
+    margin:0;
+    list-style:none;
+    
+}
+.menu a{
+    display:block;
+    color:white;
+    text-decoration: none;
+}
+
+.menu li:hover{
+    ul.submenu{
+        display:block;
+    }
+}
+
+img{
+    width:100vw;
+    height:50%;
+}
+
+
+
+
+
+
