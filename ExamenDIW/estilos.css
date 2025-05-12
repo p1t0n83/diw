@@ -1,0 +1,338 @@
+/*Estilos generales*/
+/*Establezco que el documento estara econ grid para decir que seran 3 filas, header,main y footer*/
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+/*los enlaces no tendran el subrayado*/
+a {
+    text-decoration: none;
+}
+/*las listas no tendran el punto de la izquierda*/
+li {
+    list-style: none;
+}
+
+/*Header*/
+/*la disposicion del contenido sera flex, para que este todo en una sola fila*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #fffaf2;
+    padding: 10px;
+
+}
+
+
+
+/*Parte del logo*/
+
+header .logo img {
+    height: 150px;
+}
+
+
+.logo {
+    text-align: center;
+    margin-left: 15px;
+}
+
+.logo p {
+    color: #c8552e;
+}
+
+/*menu navegacion del header*/
+header nav .menu {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+header li {
+    list-style: none;
+    position: abolute;
+}
+
+header a {
+    color: black;
+}
+
+header li:hover {
+    .submenu {
+        display: block
+    }
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    margin: 0;
+    padding: 0;
+    min-width: 180px;
+}
+
+.submenu a {
+    color: white;
+
+}
+
+.submenu li:hover {
+    background-color: #e38b29;
+
+}
+
+/*Parte del buscador del header*/
+
+
+header .busqueda img {
+    height: 15px;
+
+}
+
+.busqueda {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    margin-top: 50px;
+    gap: 4px;
+}
+
+.busqueda button {
+    background: #e38b29;
+    border: none;
+    border-radius: 4px;
+    color: white;
+
+}
+
+
+/*Main*/
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+
+}
+
+/*Parte del banner*/
+
+.mainA {
+    background-image: url(img/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 40px;
+}
+
+.descubrenos {
+    align-self: flex-end;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 70%;
+
+}
+
+.descubrenos h1 {
+    color: #e38b29;
+
+}
+
+.descubrenos button {
+    padding: 10px 20px;
+    background-color: #e38b29;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.descubrenos button:hover {
+    color: #c8552e;
+    font-weight: bold;
+}
+
+
+/*Parte de abajo con informacion*/
+
+.mainB {
+    display: grid;
+    grid-template-columns: auto 1fr 1fr;
+    background-color: #fffaf2;
+}
+
+.mainB img {
+    height: 800px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+
+.categoria {
+    display: flex;
+    flex-direction: column;
+}
+
+.categoria li {
+    margin-bottom: 10px;
+}
+
+.categoria h3,
+.opiniones h3 {
+    color: #e38b29;
+}
+
+.tarjetaO {
+    background-color: #f5e9d5;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+.tarjetaM {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1);
+}
+
+
+.tarjetaM h2 {
+    color: #e38b29
+}
+
+.tarjetaM button {
+    color: white;
+    background-color: #e38b29;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.tarjetaM button:hover {
+    color: #c8552e;
+}
+
+
+/*Footer*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    background-color: #f5e9d5;
+}
+
+
+footer h2 {
+    color: #e38b29;
+}
+
+.filosofia {
+    width: 33%;
+    margin: 10px;
+}
+
+.filosofia img {
+    float: left;
+    height: 40px;
+}
+
+
+.nuestra .galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.galeria img {
+    height: 100px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.contacto {
+    text-align: left;
+    margin-right: 100px;
+}
+
+.contacto li {
+    margin: 10px;
+
+}
+
+.contacto img {
+    height: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /*. El buscador y el botón “Aula Virtual” se colocan uno al lado del otro*/
+    .busqueda {
+        display: flex;
+        flex-direction: row;
+        text-align: end;
+        margin-top: 50px;
+        gap: 4px;
+    }
+
+    /*. Se tendrán unos márgenes laterales del contenido, del 1%.*/
+    body {
+        margin-left: 1%;
+        margin-top: 1%;
+    }
+
+    /*. Las tarjetas de los cursos pasan a ocupar el 100% del ancho*/
+    .tarjetaM {
+        width: 100%;
+    }
+
+    /*d. Se redistribuye el contenido para ocupar una única columna con el orden: 
+banner de promociones, contenido, barra lateral y pie.*/
+    .mainB {
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: #fffaf2;
+    }
+
+    /*. Las opciones del menú estarán más juntas*/
+    header nav .menu {
+        display: flex;
+        gap: 10px;
+        margin-top: 50px;
+    }
+
+    /*f. Los submenús ocupan todo el espacio disponible y tienen un mayor 
+espacio. */
+    .submenu {
+        display: none;
+        position: relative;
+        background-color: #333;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+
+    /*g. El texto del footer se centra y las columnas se apilan
+*/
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: center;
+        align-content: center;
+        background-color: #f5e9d5;
+    }
+}
