@@ -55,8 +55,21 @@ img{
     height:50%;
 }
 
+main{
+    background-color:rgb(233, 227, 227) ;
+}
 
+.aventura{
+    text-align:center;
+}
 
+.tarjetas{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
 
-
-
+.tarjeta{
+    background-color: white;
+    border-color: black;
+}
