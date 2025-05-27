@@ -1,0 +1,47 @@
+.titulo-animado {
+    animation: entradaTitulo 1.5s ease-out forwards;
+}
+
+@keyframes entradaTitulo {
+    0% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.galeria img {
+    width: 250px;
+    height: 180;
+    object-fit: cover;
+    border: 5px;
+    border-radius: 10px;
+    animation: zoom 4s ease-in-out infinite alternate;
+    transition: box-shadow 0.5s, border;
+}
+
+@keyframes zoom {
+    0% {
+        opacity: 0-7;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 1;
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 0.7;
+        transfom: scale(1)
+    }
+}
+
+
+.galeria img:hover{
+    animation-play-state:paused;
+    box-shadow: 0 0 20px rgba(180,180,180,0.75);
+    border:5px solid aliceblue;
+}
