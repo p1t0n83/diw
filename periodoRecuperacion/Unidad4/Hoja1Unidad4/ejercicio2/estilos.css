@@ -1,7 +1,8 @@
 .texto-rotatorio span {
     display: inline-block;
     font-size: 5rem;
-    animation: move 1.2s ease-in-out infinite alternate;
+    animation: move 1.2s
+     ease-in-out infinite alternate;
 }
 
 .texto-rotatorio span:nth-child(1) {
