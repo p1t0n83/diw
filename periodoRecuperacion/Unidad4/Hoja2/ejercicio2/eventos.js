@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded",()=>{
       const desplegable=document.getElementById("desplegable");
       const opciones=document.getElementById("opciones");
+      const resultado=document.getElementById("resultado");
       opciones.style.display="none";
       desplegable.addEventListener("click",()=>{
           opciones.style.display="inline";
@@ -9,7 +10,7 @@ document.addEventListener("DOMContentLoaded",()=>{
       opciones.addEventListener("click",(e)=>{
        let opcion=e.target.textContent;
         opciones.style.display="inline";
-        desplegable.textContent="Has elegido: "+opcion;
+        resultado.textContent=opcion;
           opciones.style.display="none";
       })
 })

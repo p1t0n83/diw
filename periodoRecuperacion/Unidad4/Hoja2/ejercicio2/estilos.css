@@ -1,6 +1,5 @@
+
 #opciones{
-    
-    /*ease va chill y acelera y forwards mantiene el ultimo estilo*/
     animation: opacidad 1s ease forwards;
 }
 
@@ -13,4 +12,8 @@
         opacity:1;
          transform: translateY(10px);
     }
+}
+
+#opciones:hover,#desplegable:hover{
+cursor:pointer;
 }
