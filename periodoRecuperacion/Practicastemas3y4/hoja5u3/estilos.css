@@ -1,0 +1,109 @@
+.encabezado {
+  animation: color 3s  infinite linear,typing steps(11) 3s forwards;  
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  border-right: 2px solid;
+}
+
+@keyframes color {
+  0% {
+    color: red;
+  }
+  25% {
+    color: aliceblue;
+  }
+
+  50% {
+    color: blue;
+  }
+
+  75% {
+    color: black;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0; 
+  }
+  to {
+    width: 9ch;
+  }
+}
+
+
+.imagen1{
+  animation: bucle 2s infinite linear;
+}
+
+@keyframes bucle{
+  0%{
+    transform:scale(1);
+  }
+
+  50%{
+   transform:scale(1.1);
+  }
+
+  100%{
+   transform:scale(1);
+  }
+}
+
+
+.imagen2{
+  animation: aparece 2s infinite linear;
+}
+
+@keyframes aparece{
+  0%{
+    opacity: 1;
+  }
+
+  50%{
+   opacity: 0;
+  }
+
+  100%{
+   opacity: 1;
+  }
+}
+
+.imagen3{
+  animation: inclinacion 2s infinite linear;
+}
+
+@keyframes inclinacion{
+  0%{   
+     transform: rotate(-10deg);
+  }
+  50%{  
+    transform: rotate(10deg);
+  }
+  100%{
+     transform: rotate(-10deg);
+  }
+}
+
+.imagen4{
+   animation: borde 2s infinite ;
+}
+
+@keyframes borde{
+  0%{   
+    border-radius: 50%;
+  }
+  50%{  
+     border-radius: 0;
+  }
+  100%{
+     border-radius: 50%;
+  }
+}
+
+
