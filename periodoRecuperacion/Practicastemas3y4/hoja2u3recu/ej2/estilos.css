@@ -1,0 +1,69 @@
+.titulo {
+  animation: aparecer 3s ease;
+}
+
+a {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  background-color: red;
+  font-weight: bold;
+}
+@keyframes aparecer {
+  0% {
+    transform: translateX(-100px) scale(0.5);
+  }
+  100% {
+    transform: translateX(0px) scale(1);
+  }
+}
+
+footer {
+  animation: todo 5s infinite linear;
+}
+footer h1 {
+  animation: mover 5s infinite linear;
+}
+@keyframes todo {
+  0% {
+    background-color: red;
+    opacity: 0.5;
+  }
+
+  25% {
+    background-color: yellow;
+    opacity: 1;
+  }
+
+  50% {
+    background-color: blue;
+    opacity: 0.5;
+  }
+
+  75% {
+    background-color: green;
+    opacity: 1;
+  }
+
+  100% {
+    background-color: orange;
+    opacity: 0.5;
+  }
+}
+
+@keyframes mover {
+  0%,100% {
+    transform: translateX(0px);
+  }
+
+  50% {
+    transform: translateX(100px);
+  }
+
+  75% {
+    transform: translateX(-100px);
+  }
+
+  
+}

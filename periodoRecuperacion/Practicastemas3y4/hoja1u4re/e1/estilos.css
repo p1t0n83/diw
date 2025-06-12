@@ -1,0 +1,36 @@
+.galeria img {
+  transition: all 0.5s ease;
+  animation: zoom 0.5s infinite;
+}
+
+.galeria img:hover {
+  border: 3px solid black;
+  box-shadow: 10px 10px black;
+}
+
+h1 {
+  animation: aparecer 3s ease;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+@keyframes zoom {
+  0%,
+  100% {
+     opacity: 1;
+    scale:1;
+  }
+  50% {
+    opacity: 0;
+    scale:0.5;
+  }
+}

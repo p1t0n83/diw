@@ -1,0 +1,38 @@
+.letras span{
+  display: inline-block;
+    font-size: 5rem;
+  animation:mover 2s infinite linear;
+}
+.letras span:nth-child(1){
+  animation-delay: 0s;
+}
+.letras span:nth-child(2){
+  animation-delay: 1s;
+}
+.letras span:nth-child(3){
+  animation-delay: 2s;
+}
+.letras span:nth-child(4){
+  animation-delay: 3s;
+}
+.letras span:nth-child(5){
+  animation-delay: 4s;
+}
+.letras span:nth-child(6){
+  animation-delay: 5s;
+}
+.letras span:nth-child(7){
+  animation-delay: 6s;
+}
+
+@keyframes mover{
+  0%,100%{
+     transform:rotate(10deg);
+     opacity:1;
+  }
+
+  50%{
+       transform:rotate(-10deg);
+       opacity:0.5;
+  }
+}
